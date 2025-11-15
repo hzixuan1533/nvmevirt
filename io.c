@@ -10,7 +10,8 @@
 #include "dma.h"
 
 #if (SUPPORTED_SSD_TYPE(CONV) || SUPPORTED_SSD_TYPE(ZNS))
-#include "ssd.h"
+// #include "ssd.h"
+#include "my_ssd.h"
 #else
 struct buffer;
 #endif

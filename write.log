@@ -1,0 +1,821 @@
+[24207.069005] NVMeVirt: conv_write: start_lpn=25600, len=8, end_lpn=25600
+[24207.069009] NVMeVirt: ppa2pgidx: ch:0, lun:0, pl:0, blk:0, pg:4
+[24207.069010] NVMeVirt: conv_write: got new ppa 4, 
+[24207.069011] NVMeVirt: ppa2pgidx: ch:0, lun:0, pl:0, blk:0, pg:4
+[24207.069012] NVMeVirt: current wpp: ch:0, lun:0, pl:0, blk:0, pg:4
+[24207.069012] NVMeVirt: advanced wpp: ch:0, lun:0, pl:0, blk:0, pg:5 (curline 0)
+[24207.069013] NVMeVirt: nvmev_io_worker_0/242[1], sq 1 cq 1, entry 0, 24207069004631 + 5612
+[24207.069014] NVMeVirt: __reclaim_completed_reqs: 241 -- 241, 1
+[24207.070006] NVMeVirt: nvmev_io_worker_0: copied 242, 1 1 0
+[24207.070009] NVMeVirt: nvmev_io_worker_0: completed 242, 1 1 0
+[24207.070011] NVMeVirt: irq: msi 112, vector 35
+[24207.070114] NVMeVirt: conv_read: start_lpn=0, len=8, end_lpn=0
+[24207.070115] NVMeVirt: SSD: 000000009f65f23b, Enter stime: 24207070135445, ch 0 lun 0 blk 0 page 3 command 0 ppa 0x3
+[24207.070116] NVMeVirt: nvmev_io_worker_0/243[2], sq 5 cq 5, entry 3, 24207070113945 + 57276
+[24207.070117] NVMeVirt: __reclaim_completed_reqs: 242 -- 242, 1
+[24207.070118] NVMeVirt: nvmev_io_worker_0: copied 243, 5 5 3
+[24207.070171] NVMeVirt: nvmev_io_worker_0: completed 243, 5 5 3
+[24207.070172] NVMeVirt: irq: msi 116, vector 35
+[24207.070182] NVMeVirt: conv_read: start_lpn=1, len=8, end_lpn=1
+[24207.070182] NVMeVirt: SSD: 000000005c515273, Enter stime: 24207070203565, ch 0 lun 0 blk 0 page 0 command 0 ppa 0x0
+[24207.070183] NVMeVirt: nvmev_io_worker_0/244[2], sq 5 cq 5, entry 4, 24207070182065 + 57276
+[24207.070184] NVMeVirt: __reclaim_completed_reqs: 243 -- 243, 1
+[24207.070184] NVMeVirt: nvmev_io_worker_0: copied 244, 5 5 4
+[24207.070239] NVMeVirt: nvmev_io_worker_0: completed 244, 5 5 4
+[24207.070239] NVMeVirt: irq: msi 116, vector 35
+[24207.070245] NVMeVirt: conv_read: start_lpn=3, len=8, end_lpn=3
+[24207.070245] NVMeVirt: lpn 0x0 not mapped to valid ppa
+[24207.070246] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.070246] NVMeVirt: nvmev_io_worker_0/245[2], sq 5 cq 5, entry 5, 24207070244985 + 0
+[24207.070247] NVMeVirt: __reclaim_completed_reqs: 244 -- 244, 1
+[24207.070248] NVMeVirt: nvmev_io_worker_0: copied 245, 5 5 5
+[24207.070248] NVMeVirt: nvmev_io_worker_0: completed 245, 5 5 5
+[24207.070248] NVMeVirt: irq: msi 116, vector 35
+[24207.071419] NVMeVirt: conv_read: start_lpn=3919648, len=8, end_lpn=3919648
+[24207.071419] NVMeVirt: lpn 0xef3c8 not mapped to valid ppa
+[24207.071420] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071420] NVMeVirt: nvmev_io_worker_0/246[2], sq 7 cq 7, entry 0, 24207071418949 + 0
+[24207.071421] NVMeVirt: __reclaim_completed_reqs: 245 -- 245, 1
+[24207.071422] NVMeVirt: nvmev_io_worker_0: copied 246, 7 7 0
+[24207.071422] NVMeVirt: nvmev_io_worker_0: completed 246, 7 7 0
+[24207.071423] NVMeVirt: irq: msi 118, vector 35
+[24207.071430] NVMeVirt: conv_read: start_lpn=3919669, len=8, end_lpn=3919669
+[24207.071431] NVMeVirt: lpn 0xef3cd not mapped to valid ppa
+[24207.071431] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071431] NVMeVirt: nvmev_io_worker_0/247[2], sq 7 cq 7, entry 1, 24207071430619 + 0
+[24207.071432] NVMeVirt: __reclaim_completed_reqs: 246 -- 246, 1
+[24207.071432] NVMeVirt: nvmev_io_worker_0: copied 247, 7 7 1
+[24207.071433] NVMeVirt: nvmev_io_worker_0: completed 247, 7 7 1
+[24207.071433] NVMeVirt: irq: msi 118, vector 35
+[24207.071437] NVMeVirt: conv_read: start_lpn=0, len=8, end_lpn=0
+[24207.071437] NVMeVirt: SSD: 000000009f65f23b, Enter stime: 24207071458999, ch 0 lun 0 blk 0 page 3 command 0 ppa 0x3
+[24207.071438] NVMeVirt: nvmev_io_worker_0/248[2], sq 7 cq 7, entry 2, 24207071437499 + 57276
+[24207.071439] NVMeVirt: __reclaim_completed_reqs: 247 -- 247, 1
+[24207.071439] NVMeVirt: nvmev_io_worker_0: copied 248, 7 7 2
+[24207.071494] NVMeVirt: nvmev_io_worker_0: completed 248, 7 7 2
+[24207.071495] NVMeVirt: irq: msi 118, vector 35
+[24207.071498] NVMeVirt: conv_read: start_lpn=1, len=8, end_lpn=1
+[24207.071499] NVMeVirt: SSD: 000000005c515273, Enter stime: 24207071520149, ch 0 lun 0 blk 0 page 0 command 0 ppa 0x0
+[24207.071499] NVMeVirt: nvmev_io_worker_0/249[2], sq 7 cq 7, entry 3, 24207071498649 + 57276
+[24207.071500] NVMeVirt: __reclaim_completed_reqs: 248 -- 248, 1
+[24207.071500] NVMeVirt: nvmev_io_worker_0: copied 249, 7 7 3
+[24207.071556] NVMeVirt: nvmev_io_worker_0: completed 249, 7 7 3
+[24207.071556] NVMeVirt: irq: msi 118, vector 35
+[24207.071560] NVMeVirt: conv_read: start_lpn=3919670, len=8, end_lpn=3919670
+[24207.071561] NVMeVirt: lpn 0xef3cd not mapped to valid ppa
+[24207.071561] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071561] NVMeVirt: nvmev_io_worker_0/250[2], sq 7 cq 7, entry 4, 24207071560610 + 0
+[24207.071562] NVMeVirt: __reclaim_completed_reqs: 249 -- 249, 1
+[24207.071562] NVMeVirt: nvmev_io_worker_0: copied 250, 7 7 4
+[24207.071563] NVMeVirt: nvmev_io_worker_0: completed 250, 7 7 4
+[24207.071563] NVMeVirt: irq: msi 118, vector 35
+[24207.071566] NVMeVirt: conv_read: start_lpn=3919638, len=8, end_lpn=3919638
+[24207.071567] NVMeVirt: lpn 0xef3c5 not mapped to valid ppa
+[24207.071567] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071567] NVMeVirt: nvmev_io_worker_0/251[2], sq 7 cq 7, entry 5, 24207071566580 + 0
+[24207.071568] NVMeVirt: __reclaim_completed_reqs: 250 -- 250, 1
+[24207.071568] NVMeVirt: nvmev_io_worker_0: copied 251, 7 7 5
+[24207.071569] NVMeVirt: nvmev_io_worker_0: completed 251, 7 7 5
+[24207.071569] NVMeVirt: irq: msi 118, vector 35
+[24207.071573] NVMeVirt: conv_read: start_lpn=3919663, len=8, end_lpn=3919663
+[24207.071574] NVMeVirt: lpn 0xef3cb not mapped to valid ppa
+[24207.071574] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071575] NVMeVirt: nvmev_io_worker_0/252[2], sq 7 cq 7, entry 6, 24207071573950 + 0
+[24207.071575] NVMeVirt: __reclaim_completed_reqs: 251 -- 251, 1
+[24207.071576] NVMeVirt: nvmev_io_worker_0: copied 252, 7 7 6
+[24207.071576] NVMeVirt: nvmev_io_worker_0: completed 252, 7 7 6
+[24207.071577] NVMeVirt: irq: msi 118, vector 35
+[24207.071579] NVMeVirt: conv_read: start_lpn=3919639, len=8, end_lpn=3919639
+[24207.071580] NVMeVirt: lpn 0xef3c5 not mapped to valid ppa
+[24207.071580] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071580] NVMeVirt: nvmev_io_worker_0/253[2], sq 7 cq 7, entry 7, 24207071579870 + 0
+[24207.071581] NVMeVirt: __reclaim_completed_reqs: 252 -- 252, 1
+[24207.071581] NVMeVirt: nvmev_io_worker_0: copied 253, 7 7 7
+[24207.071582] NVMeVirt: nvmev_io_worker_0: completed 253, 7 7 7
+[24207.071582] NVMeVirt: irq: msi 118, vector 35
+[24207.071585] NVMeVirt: conv_read: start_lpn=3919621, len=8, end_lpn=3919621
+[24207.071586] NVMeVirt: lpn 0xef3c1 not mapped to valid ppa
+[24207.071586] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071586] NVMeVirt: nvmev_io_worker_0/254[2], sq 7 cq 7, entry 8, 24207071585680 + 0
+[24207.071587] NVMeVirt: __reclaim_completed_reqs: 253 -- 253, 1
+[24207.071587] NVMeVirt: nvmev_io_worker_0: copied 254, 7 7 8
+[24207.071588] NVMeVirt: nvmev_io_worker_0: completed 254, 7 7 8
+[24207.071588] NVMeVirt: irq: msi 118, vector 35
+[24207.071591] NVMeVirt: conv_read: start_lpn=3919597, len=8, end_lpn=3919597
+[24207.071591] NVMeVirt: lpn 0xef3bb not mapped to valid ppa
+[24207.071592] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071592] NVMeVirt: nvmev_io_worker_0/255[2], sq 7 cq 7, entry 9, 24207071591620 + 0
+[24207.071593] NVMeVirt: __reclaim_completed_reqs: 254 -- 254, 1
+[24207.071593] NVMeVirt: nvmev_io_worker_0: copied 255, 7 7 9
+[24207.071594] NVMeVirt: nvmev_io_worker_0: completed 255, 7 7 9
+[24207.071594] NVMeVirt: irq: msi 118, vector 35
+[24207.071598] NVMeVirt: conv_read: start_lpn=3919586, len=8, end_lpn=3919586
+[24207.071598] NVMeVirt: lpn 0xef3b8 not mapped to valid ppa
+[24207.071598] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071599] NVMeVirt: nvmev_io_worker_0/256[2], sq 7 cq 7, entry 10, 24207071598000 + 0
+[24207.071599] NVMeVirt: __reclaim_completed_reqs: 255 -- 255, 1
+[24207.071600] NVMeVirt: nvmev_io_worker_0: copied 256, 7 7 10
+[24207.071600] NVMeVirt: nvmev_io_worker_0: completed 256, 7 7 10
+[24207.071601] NVMeVirt: irq: msi 118, vector 35
+[24207.071603] NVMeVirt: conv_read: start_lpn=3919579, len=8, end_lpn=3919579
+[24207.071604] NVMeVirt: lpn 0xef3b6 not mapped to valid ppa
+[24207.071604] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071604] NVMeVirt: nvmev_io_worker_0/257[2], sq 7 cq 7, entry 11, 24207071603910 + 0
+[24207.071605] NVMeVirt: __reclaim_completed_reqs: 256 -- 256, 1
+[24207.071605] NVMeVirt: nvmev_io_worker_0: copied 257, 7 7 11
+[24207.071606] NVMeVirt: nvmev_io_worker_0: completed 257, 7 7 11
+[24207.071606] NVMeVirt: irq: msi 118, vector 35
+[24207.071609] NVMeVirt: conv_read: start_lpn=3919557, len=8, end_lpn=3919557
+[24207.071609] NVMeVirt: lpn 0xef3b1 not mapped to valid ppa
+[24207.071610] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071610] NVMeVirt: nvmev_io_worker_0/258[2], sq 7 cq 7, entry 12, 24207071609490 + 0
+[24207.071610] NVMeVirt: __reclaim_completed_reqs: 257 -- 257, 1
+[24207.071611] NVMeVirt: nvmev_io_worker_0: copied 258, 7 7 12
+[24207.071611] NVMeVirt: nvmev_io_worker_0: completed 258, 7 7 12
+[24207.071612] NVMeVirt: irq: msi 118, vector 35
+[24207.071615] NVMeVirt: conv_read: start_lpn=3919549, len=8, end_lpn=3919549
+[24207.071615] NVMeVirt: lpn 0xef3af not mapped to valid ppa
+[24207.071615] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071616] NVMeVirt: nvmev_io_worker_0/259[2], sq 7 cq 7, entry 13, 24207071615330 + 0
+[24207.071616] NVMeVirt: __reclaim_completed_reqs: 258 -- 258, 1
+[24207.071617] NVMeVirt: nvmev_io_worker_0: copied 259, 7 7 13
+[24207.071617] NVMeVirt: nvmev_io_worker_0: completed 259, 7 7 13
+[24207.071618] NVMeVirt: irq: msi 118, vector 35
+[24207.071620] NVMeVirt: conv_read: start_lpn=3919547, len=8, end_lpn=3919547
+[24207.071621] NVMeVirt: lpn 0xef3ae not mapped to valid ppa
+[24207.071621] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071621] NVMeVirt: nvmev_io_worker_0/260[2], sq 7 cq 7, entry 14, 24207071620790 + 0
+[24207.071622] NVMeVirt: __reclaim_completed_reqs: 259 -- 259, 1
+[24207.071622] NVMeVirt: nvmev_io_worker_0: copied 260, 7 7 14
+[24207.071623] NVMeVirt: nvmev_io_worker_0: completed 260, 7 7 14
+[24207.071623] NVMeVirt: irq: msi 118, vector 35
+[24207.071626] NVMeVirt: conv_read: start_lpn=3919552, len=8, end_lpn=3919552
+[24207.071626] NVMeVirt: lpn 0xef3b0 not mapped to valid ppa
+[24207.071626] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071627] NVMeVirt: nvmev_io_worker_0/261[2], sq 7 cq 7, entry 15, 24207071626290 + 0
+[24207.071627] NVMeVirt: __reclaim_completed_reqs: 260 -- 260, 1
+[24207.071628] NVMeVirt: nvmev_io_worker_0: copied 261, 7 7 15
+[24207.071628] NVMeVirt: nvmev_io_worker_0: completed 261, 7 7 15
+[24207.071629] NVMeVirt: irq: msi 118, vector 35
+[24207.071632] NVMeVirt: conv_read: start_lpn=3919285, len=8, end_lpn=3919285
+[24207.071632] NVMeVirt: lpn 0xef36d not mapped to valid ppa
+[24207.071632] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071633] NVMeVirt: nvmev_io_worker_0/262[2], sq 7 cq 7, entry 16, 24207071631990 + 0
+[24207.071633] NVMeVirt: __reclaim_completed_reqs: 261 -- 261, 1
+[24207.071633] NVMeVirt: nvmev_io_worker_0: copied 262, 7 7 16
+[24207.071634] NVMeVirt: nvmev_io_worker_0: completed 262, 7 7 16
+[24207.071634] NVMeVirt: irq: msi 118, vector 35
+[24207.071651] NVMeVirt: conv_read: start_lpn=4, len=8, end_lpn=4
+[24207.071652] NVMeVirt: lpn 0x1 not mapped to valid ppa
+[24207.071652] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071652] NVMeVirt: nvmev_io_worker_0/263[2], sq 7 cq 7, entry 17, 24207071651860 + 0
+[24207.071653] NVMeVirt: __reclaim_completed_reqs: 262 -- 262, 1
+[24207.071653] NVMeVirt: nvmev_io_worker_0: copied 263, 7 7 17
+[24207.071654] NVMeVirt: nvmev_io_worker_0: completed 263, 7 7 17
+[24207.071654] NVMeVirt: irq: msi 118, vector 35
+[24207.071657] NVMeVirt: conv_read: start_lpn=8, len=8, end_lpn=8
+[24207.071658] NVMeVirt: lpn 0x2 not mapped to valid ppa
+[24207.071658] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071658] NVMeVirt: nvmev_io_worker_0/264[2], sq 7 cq 7, entry 18, 24207071657690 + 0
+[24207.071659] NVMeVirt: __reclaim_completed_reqs: 263 -- 263, 1
+[24207.071659] NVMeVirt: nvmev_io_worker_0: copied 264, 7 7 18
+[24207.071660] NVMeVirt: nvmev_io_worker_0: completed 264, 7 7 18
+[24207.071660] NVMeVirt: irq: msi 118, vector 35
+[24207.071663] NVMeVirt: conv_read: start_lpn=16, len=8, end_lpn=16
+[24207.071663] NVMeVirt: lpn 0x4 not mapped to valid ppa
+[24207.071664] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071664] NVMeVirt: nvmev_io_worker_0/265[2], sq 7 cq 7, entry 19, 24207071663340 + 0
+[24207.071664] NVMeVirt: __reclaim_completed_reqs: 264 -- 264, 1
+[24207.071665] NVMeVirt: nvmev_io_worker_0: copied 265, 7 7 19
+[24207.071665] NVMeVirt: nvmev_io_worker_0: completed 265, 7 7 19
+[24207.071666] NVMeVirt: irq: msi 118, vector 35
+[24207.071669] NVMeVirt: conv_read: start_lpn=32, len=8, end_lpn=32
+[24207.071669] NVMeVirt: lpn 0x8 not mapped to valid ppa
+[24207.071669] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071670] NVMeVirt: nvmev_io_worker_0/266[2], sq 7 cq 7, entry 20, 24207071669130 + 0
+[24207.071670] NVMeVirt: __reclaim_completed_reqs: 265 -- 265, 1
+[24207.071671] NVMeVirt: nvmev_io_worker_0: copied 266, 7 7 20
+[24207.071671] NVMeVirt: nvmev_io_worker_0: completed 266, 7 7 20
+[24207.071671] NVMeVirt: irq: msi 118, vector 35
+[24207.071675] NVMeVirt: conv_read: start_lpn=64, len=8, end_lpn=64
+[24207.071675] NVMeVirt: lpn 0x10 not mapped to valid ppa
+[24207.071676] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071676] NVMeVirt: nvmev_io_worker_0/267[2], sq 7 cq 7, entry 21, 24207071675540 + 0
+[24207.071677] NVMeVirt: __reclaim_completed_reqs: 266 -- 266, 1
+[24207.071677] NVMeVirt: nvmev_io_worker_0: copied 267, 7 7 21
+[24207.071678] NVMeVirt: nvmev_io_worker_0: completed 267, 7 7 21
+[24207.071678] NVMeVirt: irq: msi 118, vector 35
+[24207.071681] NVMeVirt: conv_read: start_lpn=128, len=8, end_lpn=128
+[24207.071682] NVMeVirt: lpn 0x20 not mapped to valid ppa
+[24207.071682] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071683] NVMeVirt: nvmev_io_worker_0/268[2], sq 7 cq 7, entry 22, 24207071681940 + 0
+[24207.071683] NVMeVirt: __reclaim_completed_reqs: 267 -- 267, 1
+[24207.071684] NVMeVirt: nvmev_io_worker_0: copied 268, 7 7 22
+[24207.071684] NVMeVirt: nvmev_io_worker_0: completed 268, 7 7 22
+[24207.071684] NVMeVirt: irq: msi 118, vector 35
+[24207.071688] NVMeVirt: conv_read: start_lpn=256, len=8, end_lpn=256
+[24207.071688] NVMeVirt: lpn 0x40 not mapped to valid ppa
+[24207.071688] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071689] NVMeVirt: nvmev_io_worker_0/269[2], sq 7 cq 7, entry 23, 24207071687990 + 0
+[24207.071689] NVMeVirt: __reclaim_completed_reqs: 268 -- 268, 1
+[24207.071690] NVMeVirt: nvmev_io_worker_0: copied 269, 7 7 23
+[24207.071690] NVMeVirt: nvmev_io_worker_0: completed 269, 7 7 23
+[24207.071690] NVMeVirt: irq: msi 118, vector 35
+[24207.071693] NVMeVirt: conv_read: start_lpn=512, len=8, end_lpn=512
+[24207.071694] NVMeVirt: lpn 0x80 not mapped to valid ppa
+[24207.071694] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071694] NVMeVirt: nvmev_io_worker_0/270[2], sq 7 cq 7, entry 24, 24207071693840 + 0
+[24207.071695] NVMeVirt: __reclaim_completed_reqs: 269 -- 269, 1
+[24207.071695] NVMeVirt: nvmev_io_worker_0: copied 270, 7 7 24
+[24207.071696] NVMeVirt: nvmev_io_worker_0: completed 270, 7 7 24
+[24207.071696] NVMeVirt: irq: msi 118, vector 35
+[24207.071700] NVMeVirt: conv_read: start_lpn=1024, len=8, end_lpn=1024
+[24207.071701] NVMeVirt: lpn 0x100 not mapped to valid ppa
+[24207.071701] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071702] NVMeVirt: nvmev_io_worker_0/271[2], sq 7 cq 7, entry 25, 24207071700830 + 0
+[24207.071702] NVMeVirt: __reclaim_completed_reqs: 270 -- 270, 1
+[24207.071703] NVMeVirt: nvmev_io_worker_0: copied 271, 7 7 25
+[24207.071703] NVMeVirt: nvmev_io_worker_0: completed 271, 7 7 25
+[24207.071703] NVMeVirt: irq: msi 118, vector 35
+[24207.071712] NVMeVirt: conv_read: start_lpn=3, len=8, end_lpn=3
+[24207.071713] NVMeVirt: lpn 0x0 not mapped to valid ppa
+[24207.071713] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071713] NVMeVirt: nvmev_io_worker_0/272[2], sq 7 cq 7, entry 26, 24207071712720 + 0
+[24207.071714] NVMeVirt: __reclaim_completed_reqs: 271 -- 271, 1
+[24207.071714] NVMeVirt: nvmev_io_worker_0: copied 272, 7 7 26
+[24207.071714] NVMeVirt: nvmev_io_worker_0: completed 272, 7 7 26
+[24207.071715] NVMeVirt: irq: msi 118, vector 35
+[24207.071718] NVMeVirt: conv_read: start_lpn=7, len=8, end_lpn=7
+[24207.071718] NVMeVirt: lpn 0x1 not mapped to valid ppa
+[24207.071719] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071719] NVMeVirt: nvmev_io_worker_0/273[2], sq 7 cq 7, entry 27, 24207071718410 + 0
+[24207.071719] NVMeVirt: __reclaim_completed_reqs: 272 -- 272, 1
+[24207.071720] NVMeVirt: nvmev_io_worker_0: copied 273, 7 7 27
+[24207.071720] NVMeVirt: nvmev_io_worker_0: completed 273, 7 7 27
+[24207.071721] NVMeVirt: irq: msi 118, vector 35
+[24207.071724] NVMeVirt: conv_read: start_lpn=15, len=8, end_lpn=15
+[24207.071724] NVMeVirt: lpn 0x3 not mapped to valid ppa
+[24207.071724] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071725] NVMeVirt: nvmev_io_worker_0/274[2], sq 7 cq 7, entry 28, 24207071724030 + 0
+[24207.071725] NVMeVirt: __reclaim_completed_reqs: 273 -- 273, 1
+[24207.071725] NVMeVirt: nvmev_io_worker_0: copied 274, 7 7 28
+[24207.071726] NVMeVirt: nvmev_io_worker_0: completed 274, 7 7 28
+[24207.071726] NVMeVirt: irq: msi 118, vector 35
+[24207.071737] NVMeVirt: conv_read: start_lpn=2, len=8, end_lpn=2
+[24207.071738] NVMeVirt: lpn 0x0 not mapped to valid ppa
+[24207.071738] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071739] NVMeVirt: nvmev_io_worker_0/275[2], sq 7 cq 7, entry 29, 24207071737930 + 0
+[24207.071739] NVMeVirt: __reclaim_completed_reqs: 274 -- 274, 1
+[24207.071739] NVMeVirt: nvmev_io_worker_0: copied 275, 7 7 29
+[24207.071740] NVMeVirt: nvmev_io_worker_0: completed 275, 7 7 29
+[24207.071740] NVMeVirt: irq: msi 118, vector 35
+[24207.071740] NVMeVirt: conv_read: start_lpn=5, len=16, end_lpn=6
+[24207.071741] NVMeVirt: lpn 0x1 not mapped to valid ppa
+[24207.071741] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071742] NVMeVirt: lpn 0x1 not mapped to valid ppa
+[24207.071742] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071742] NVMeVirt: nvmev_io_worker_0/276[2], sq 7 cq 7, entry 30, 24207071740780 + 0
+[24207.071743] NVMeVirt: __reclaim_completed_reqs: 275 -- 275, 1
+[24207.071743] NVMeVirt: nvmev_io_worker_0: copied 276, 7 7 30
+[24207.071744] NVMeVirt: nvmev_io_worker_0: completed 276, 7 7 30
+[24207.071744] NVMeVirt: conv_read: start_lpn=9, len=48, end_lpn=14
+[24207.071744] NVMeVirt: lpn 0x2 not mapped to valid ppa
+[24207.071744] NVMeVirt: irq: msi 118, vector 35
+[24207.071745] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071745] NVMeVirt: lpn 0x3 not mapped to valid ppa
+[24207.071746] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071746] NVMeVirt: lpn 0x2 not mapped to valid ppa
+[24207.071746] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071747] NVMeVirt: lpn 0x3 not mapped to valid ppa
+[24207.071747] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071747] NVMeVirt: lpn 0x2 not mapped to valid ppa
+[24207.071747] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071748] NVMeVirt: lpn 0x3 not mapped to valid ppa
+[24207.071748] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071748] NVMeVirt: nvmev_io_worker_0/277[2], sq 7 cq 7, entry 31, 24207071744270 + 0
+[24207.071749] NVMeVirt: __reclaim_completed_reqs: 276 -- 276, 1
+[24207.071750] NVMeVirt: nvmev_io_worker_0: copied 277, 7 7 31
+[24207.071750] NVMeVirt: nvmev_io_worker_0: completed 277, 7 7 31
+[24207.071751] NVMeVirt: irq: msi 118, vector 35
+[24207.071751] NVMeVirt: conv_read: start_lpn=17, len=120, end_lpn=31
+[24207.071751] NVMeVirt: lpn 0x4 not mapped to valid ppa
+[24207.071751] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071752] NVMeVirt: lpn 0x5 not mapped to valid ppa
+[24207.071752] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071752] NVMeVirt: lpn 0x6 not mapped to valid ppa
+[24207.071752] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071753] NVMeVirt: lpn 0x7 not mapped to valid ppa
+[24207.071753] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071753] NVMeVirt: lpn 0x4 not mapped to valid ppa
+[24207.071754] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071754] NVMeVirt: lpn 0x5 not mapped to valid ppa
+[24207.071754] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071754] NVMeVirt: lpn 0x6 not mapped to valid ppa
+[24207.071755] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071755] NVMeVirt: lpn 0x7 not mapped to valid ppa
+[24207.071755] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071756] NVMeVirt: lpn 0x4 not mapped to valid ppa
+[24207.071756] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071756] NVMeVirt: lpn 0x5 not mapped to valid ppa
+[24207.071756] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071757] NVMeVirt: lpn 0x6 not mapped to valid ppa
+[24207.071757] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071757] NVMeVirt: lpn 0x7 not mapped to valid ppa
+[24207.071757] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071758] NVMeVirt: lpn 0x5 not mapped to valid ppa
+[24207.071758] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071758] NVMeVirt: lpn 0x6 not mapped to valid ppa
+[24207.071759] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071759] NVMeVirt: lpn 0x7 not mapped to valid ppa
+[24207.071759] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071759] NVMeVirt: nvmev_io_worker_0/278[2], sq 7 cq 7, entry 32, 24207071751010 + 0
+[24207.071760] NVMeVirt: __reclaim_completed_reqs: 277 -- 277, 1
+[24207.071762] NVMeVirt: conv_read: start_lpn=33, len=248, end_lpn=63
+[24207.071762] NVMeVirt: lpn 0x8 not mapped to valid ppa
+[24207.071762] NVMeVirt: nvmev_io_worker_0: copied 278, 7 7 32
+[24207.071762] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071763] NVMeVirt: nvmev_io_worker_0: completed 278, 7 7 32
+[24207.071763] NVMeVirt: lpn 0x9 not mapped to valid ppa
+[24207.071763] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071763] NVMeVirt: irq: msi 118, vector 35
+[24207.071764] NVMeVirt: lpn 0xa not mapped to valid ppa
+[24207.071764] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071764] NVMeVirt: lpn 0xb not mapped to valid ppa
+[24207.071765] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071765] NVMeVirt: lpn 0xc not mapped to valid ppa
+[24207.071765] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071766] NVMeVirt: lpn 0xd not mapped to valid ppa
+[24207.071766] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071766] NVMeVirt: lpn 0xe not mapped to valid ppa
+[24207.071766] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071767] NVMeVirt: lpn 0xf not mapped to valid ppa
+[24207.071767] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071767] NVMeVirt: lpn 0x8 not mapped to valid ppa
+[24207.071767] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071768] NVMeVirt: lpn 0x9 not mapped to valid ppa
+[24207.071768] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071768] NVMeVirt: lpn 0xa not mapped to valid ppa
+[24207.071768] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071769] NVMeVirt: lpn 0xb not mapped to valid ppa
+[24207.071769] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071769] NVMeVirt: lpn 0xc not mapped to valid ppa
+[24207.071770] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071770] NVMeVirt: lpn 0xd not mapped to valid ppa
+[24207.071770] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071770] NVMeVirt: lpn 0xe not mapped to valid ppa
+[24207.071771] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071771] NVMeVirt: lpn 0xf not mapped to valid ppa
+[24207.071771] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071772] NVMeVirt: lpn 0x8 not mapped to valid ppa
+[24207.071772] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071772] NVMeVirt: lpn 0x9 not mapped to valid ppa
+[24207.071772] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071773] NVMeVirt: lpn 0xa not mapped to valid ppa
+[24207.071773] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071773] NVMeVirt: lpn 0xb not mapped to valid ppa
+[24207.071773] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071774] NVMeVirt: lpn 0xc not mapped to valid ppa
+[24207.071774] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071774] NVMeVirt: lpn 0xd not mapped to valid ppa
+[24207.071774] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071775] NVMeVirt: lpn 0xe not mapped to valid ppa
+[24207.071775] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071775] NVMeVirt: lpn 0xf not mapped to valid ppa
+[24207.071776] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071776] NVMeVirt: lpn 0x9 not mapped to valid ppa
+[24207.071776] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071776] NVMeVirt: lpn 0xa not mapped to valid ppa
+[24207.071777] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071777] NVMeVirt: lpn 0xb not mapped to valid ppa
+[24207.071777] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071778] NVMeVirt: lpn 0xc not mapped to valid ppa
+[24207.071778] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071778] NVMeVirt: lpn 0xd not mapped to valid ppa
+[24207.071778] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071779] NVMeVirt: lpn 0xe not mapped to valid ppa
+[24207.071779] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071779] NVMeVirt: lpn 0xf not mapped to valid ppa
+[24207.071779] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071780] NVMeVirt: nvmev_io_worker_0/279[2], sq 7 cq 7, entry 33, 24207071762230 + 0
+[24207.071780] NVMeVirt: __reclaim_completed_reqs: 278 -- 278, 1
+[24207.071784] NVMeVirt: nvmev_io_worker_0: copied 279, 7 7 33
+[24207.071785] NVMeVirt: nvmev_io_worker_0: completed 279, 7 7 33
+[24207.071785] NVMeVirt: irq: msi 118, vector 35
+[24207.071846] NVMeVirt: conv_read: start_lpn=65, len=504, end_lpn=127
+[24207.071847] NVMeVirt: lpn 0x10 not mapped to valid ppa
+[24207.071847] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071847] NVMeVirt: lpn 0x11 not mapped to valid ppa
+[24207.071847] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071848] NVMeVirt: lpn 0x12 not mapped to valid ppa
+[24207.071848] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071848] NVMeVirt: lpn 0x13 not mapped to valid ppa
+[24207.071849] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071849] NVMeVirt: lpn 0x14 not mapped to valid ppa
+[24207.071849] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071849] NVMeVirt: lpn 0x15 not mapped to valid ppa
+[24207.071850] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071850] NVMeVirt: lpn 0x16 not mapped to valid ppa
+[24207.071850] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071851] NVMeVirt: lpn 0x17 not mapped to valid ppa
+[24207.071851] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071851] NVMeVirt: lpn 0x18 not mapped to valid ppa
+[24207.071851] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071852] NVMeVirt: lpn 0x19 not mapped to valid ppa
+[24207.071852] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071852] NVMeVirt: lpn 0x1a not mapped to valid ppa
+[24207.071852] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071853] NVMeVirt: lpn 0x1b not mapped to valid ppa
+[24207.071853] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071853] NVMeVirt: lpn 0x1c not mapped to valid ppa
+[24207.071853] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071854] NVMeVirt: lpn 0x1d not mapped to valid ppa
+[24207.071854] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071854] NVMeVirt: lpn 0x1e not mapped to valid ppa
+[24207.071855] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071855] NVMeVirt: lpn 0x1f not mapped to valid ppa
+[24207.071855] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071855] NVMeVirt: lpn 0x10 not mapped to valid ppa
+[24207.071856] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071856] NVMeVirt: lpn 0x11 not mapped to valid ppa
+[24207.071856] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071857] NVMeVirt: lpn 0x12 not mapped to valid ppa
+[24207.071857] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071857] NVMeVirt: lpn 0x13 not mapped to valid ppa
+[24207.071857] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071858] NVMeVirt: lpn 0x14 not mapped to valid ppa
+[24207.071858] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071858] NVMeVirt: lpn 0x15 not mapped to valid ppa
+[24207.071858] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071859] NVMeVirt: lpn 0x16 not mapped to valid ppa
+[24207.071859] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071859] NVMeVirt: lpn 0x17 not mapped to valid ppa
+[24207.071860] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071860] NVMeVirt: lpn 0x18 not mapped to valid ppa
+[24207.071860] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071860] NVMeVirt: lpn 0x19 not mapped to valid ppa
+[24207.071861] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071861] NVMeVirt: lpn 0x1a not mapped to valid ppa
+[24207.071861] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071862] NVMeVirt: lpn 0x1b not mapped to valid ppa
+[24207.071862] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071862] NVMeVirt: lpn 0x1c not mapped to valid ppa
+[24207.071862] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071863] NVMeVirt: lpn 0x1d not mapped to valid ppa
+[24207.071863] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071863] NVMeVirt: lpn 0x1e not mapped to valid ppa
+[24207.071863] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071864] NVMeVirt: lpn 0x1f not mapped to valid ppa
+[24207.071864] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071864] NVMeVirt: lpn 0x10 not mapped to valid ppa
+[24207.071865] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071865] NVMeVirt: lpn 0x11 not mapped to valid ppa
+[24207.071865] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071865] NVMeVirt: lpn 0x12 not mapped to valid ppa
+[24207.071866] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071866] NVMeVirt: lpn 0x13 not mapped to valid ppa
+[24207.071866] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071866] NVMeVirt: lpn 0x14 not mapped to valid ppa
+[24207.071867] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071867] NVMeVirt: lpn 0x15 not mapped to valid ppa
+[24207.071867] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071868] NVMeVirt: lpn 0x16 not mapped to valid ppa
+[24207.071868] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071868] NVMeVirt: lpn 0x17 not mapped to valid ppa
+[24207.071868] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071869] NVMeVirt: lpn 0x18 not mapped to valid ppa
+[24207.071869] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071869] NVMeVirt: lpn 0x19 not mapped to valid ppa
+[24207.071869] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071870] NVMeVirt: lpn 0x1a not mapped to valid ppa
+[24207.071870] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071870] NVMeVirt: lpn 0x1b not mapped to valid ppa
+[24207.071871] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071871] NVMeVirt: lpn 0x1c not mapped to valid ppa
+[24207.071871] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071871] NVMeVirt: lpn 0x1d not mapped to valid ppa
+[24207.071872] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071872] NVMeVirt: lpn 0x1e not mapped to valid ppa
+[24207.071872] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071873] NVMeVirt: lpn 0x1f not mapped to valid ppa
+[24207.071873] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071873] NVMeVirt: lpn 0x11 not mapped to valid ppa
+[24207.071873] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071874] NVMeVirt: lpn 0x12 not mapped to valid ppa
+[24207.071874] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071874] NVMeVirt: lpn 0x13 not mapped to valid ppa
+[24207.071874] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071875] NVMeVirt: lpn 0x14 not mapped to valid ppa
+[24207.071875] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071875] NVMeVirt: lpn 0x15 not mapped to valid ppa
+[24207.071875] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071876] NVMeVirt: lpn 0x16 not mapped to valid ppa
+[24207.071876] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071876] NVMeVirt: lpn 0x17 not mapped to valid ppa
+[24207.071877] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071877] NVMeVirt: lpn 0x18 not mapped to valid ppa
+[24207.071877] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071877] NVMeVirt: lpn 0x19 not mapped to valid ppa
+[24207.071878] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071878] NVMeVirt: lpn 0x1a not mapped to valid ppa
+[24207.071878] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071879] NVMeVirt: lpn 0x1b not mapped to valid ppa
+[24207.071879] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071879] NVMeVirt: lpn 0x1c not mapped to valid ppa
+[24207.071879] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071880] NVMeVirt: lpn 0x1d not mapped to valid ppa
+[24207.071880] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071880] NVMeVirt: lpn 0x1e not mapped to valid ppa
+[24207.071880] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071881] NVMeVirt: lpn 0x1f not mapped to valid ppa
+[24207.071881] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071881] NVMeVirt: nvmev_io_worker_0/280[2], sq 7 cq 7, entry 34, 24207071846631 + 0
+[24207.071882] NVMeVirt: __reclaim_completed_reqs: 279 -- 279, 1
+[24207.071890] NVMeVirt: nvmev_io_worker_0: copied 280, 7 7 34
+[24207.071891] NVMeVirt: nvmev_io_worker_0: completed 280, 7 7 34
+[24207.071891] NVMeVirt: irq: msi 118, vector 35
+[24207.071970] NVMeVirt: conv_read: start_lpn=3919488, len=472, end_lpn=3919546
+[24207.071970] NVMeVirt: lpn 0xef3a0 not mapped to valid ppa
+[24207.071971] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071971] NVMeVirt: lpn 0xef3a1 not mapped to valid ppa
+[24207.071971] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071972] NVMeVirt: lpn 0xef3a2 not mapped to valid ppa
+[24207.071972] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071972] NVMeVirt: lpn 0xef3a3 not mapped to valid ppa
+[24207.071973] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071973] NVMeVirt: lpn 0xef3a4 not mapped to valid ppa
+[24207.071973] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071973] NVMeVirt: lpn 0xef3a5 not mapped to valid ppa
+[24207.071974] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071974] NVMeVirt: lpn 0xef3a6 not mapped to valid ppa
+[24207.071974] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071974] NVMeVirt: lpn 0xef3a7 not mapped to valid ppa
+[24207.071975] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071975] NVMeVirt: lpn 0xef3a8 not mapped to valid ppa
+[24207.071975] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071976] NVMeVirt: lpn 0xef3a9 not mapped to valid ppa
+[24207.071976] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071976] NVMeVirt: lpn 0xef3aa not mapped to valid ppa
+[24207.071976] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071977] NVMeVirt: lpn 0xef3ab not mapped to valid ppa
+[24207.071977] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071977] NVMeVirt: lpn 0xef3ac not mapped to valid ppa
+[24207.071977] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071978] NVMeVirt: lpn 0xef3ad not mapped to valid ppa
+[24207.071978] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071978] NVMeVirt: lpn 0xef3ae not mapped to valid ppa
+[24207.071979] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071979] NVMeVirt: lpn 0xef3a0 not mapped to valid ppa
+[24207.071979] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071979] NVMeVirt: lpn 0xef3a1 not mapped to valid ppa
+[24207.071980] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071980] NVMeVirt: lpn 0xef3a2 not mapped to valid ppa
+[24207.071980] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071981] NVMeVirt: lpn 0xef3a3 not mapped to valid ppa
+[24207.071981] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071981] NVMeVirt: lpn 0xef3a4 not mapped to valid ppa
+[24207.071981] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071982] NVMeVirt: lpn 0xef3a5 not mapped to valid ppa
+[24207.071982] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071982] NVMeVirt: lpn 0xef3a6 not mapped to valid ppa
+[24207.071982] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071983] NVMeVirt: lpn 0xef3a7 not mapped to valid ppa
+[24207.071983] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071983] NVMeVirt: lpn 0xef3a8 not mapped to valid ppa
+[24207.071984] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071984] NVMeVirt: lpn 0xef3a9 not mapped to valid ppa
+[24207.071984] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071984] NVMeVirt: lpn 0xef3aa not mapped to valid ppa
+[24207.071985] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071985] NVMeVirt: lpn 0xef3ab not mapped to valid ppa
+[24207.071985] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071986] NVMeVirt: lpn 0xef3ac not mapped to valid ppa
+[24207.071986] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071986] NVMeVirt: lpn 0xef3ad not mapped to valid ppa
+[24207.071986] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071987] NVMeVirt: lpn 0xef3ae not mapped to valid ppa
+[24207.071987] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071987] NVMeVirt: lpn 0xef3a0 not mapped to valid ppa
+[24207.071988] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071988] NVMeVirt: lpn 0xef3a1 not mapped to valid ppa
+[24207.071988] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071988] NVMeVirt: lpn 0xef3a2 not mapped to valid ppa
+[24207.071989] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071989] NVMeVirt: lpn 0xef3a3 not mapped to valid ppa
+[24207.071989] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071989] NVMeVirt: lpn 0xef3a4 not mapped to valid ppa
+[24207.071990] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071990] NVMeVirt: lpn 0xef3a5 not mapped to valid ppa
+[24207.071990] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071991] NVMeVirt: lpn 0xef3a6 not mapped to valid ppa
+[24207.071991] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071991] NVMeVirt: lpn 0xef3a7 not mapped to valid ppa
+[24207.071991] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071992] NVMeVirt: lpn 0xef3a8 not mapped to valid ppa
+[24207.071992] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071992] NVMeVirt: lpn 0xef3a9 not mapped to valid ppa
+[24207.071993] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071993] NVMeVirt: lpn 0xef3aa not mapped to valid ppa
+[24207.071993] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071994] NVMeVirt: lpn 0xef3ab not mapped to valid ppa
+[24207.071994] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071994] NVMeVirt: lpn 0xef3ac not mapped to valid ppa
+[24207.071994] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071995] NVMeVirt: lpn 0xef3ad not mapped to valid ppa
+[24207.071995] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071995] NVMeVirt: lpn 0xef3ae not mapped to valid ppa
+[24207.071996] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071996] NVMeVirt: lpn 0xef3a0 not mapped to valid ppa
+[24207.071996] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071996] NVMeVirt: lpn 0xef3a1 not mapped to valid ppa
+[24207.071997] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071997] NVMeVirt: lpn 0xef3a2 not mapped to valid ppa
+[24207.071997] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071998] NVMeVirt: lpn 0xef3a3 not mapped to valid ppa
+[24207.071998] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071998] NVMeVirt: lpn 0xef3a4 not mapped to valid ppa
+[24207.071998] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071999] NVMeVirt: lpn 0xef3a5 not mapped to valid ppa
+[24207.071999] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.071999] NVMeVirt: lpn 0xef3a6 not mapped to valid ppa
+[24207.071999] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072000] NVMeVirt: lpn 0xef3a7 not mapped to valid ppa
+[24207.072000] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072000] NVMeVirt: lpn 0xef3a8 not mapped to valid ppa
+[24207.072001] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072001] NVMeVirt: lpn 0xef3a9 not mapped to valid ppa
+[24207.072001] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072001] NVMeVirt: lpn 0xef3aa not mapped to valid ppa
+[24207.072002] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072002] NVMeVirt: lpn 0xef3ab not mapped to valid ppa
+[24207.072002] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072004] NVMeVirt: lpn 0xef3ac not mapped to valid ppa
+[24207.072004] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072004] NVMeVirt: lpn 0xef3ad not mapped to valid ppa
+[24207.072004] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072005] NVMeVirt: nvmev_io_worker_0/281[2], sq 7 cq 7, entry 35, 24207071970491 + 0
+[24207.072005] NVMeVirt: __reclaim_completed_reqs: 280 -- 280, 1
+[24207.072006] NVMeVirt: conv_read: start_lpn=3919548, len=8, end_lpn=3919548
+[24207.072006] NVMeVirt: lpn 0xef3af not mapped to valid ppa
+[24207.072007] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072007] NVMeVirt: nvmev_io_worker_0/282[2], sq 7 cq 7, entry 36, 24207072006461 + 0
+[24207.072008] NVMeVirt: conv_read: start_lpn=3919550, len=16, end_lpn=3919551
+[24207.072008] NVMeVirt: lpn 0xef3af not mapped to valid ppa
+[24207.072008] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072009] NVMeVirt: lpn 0xef3af not mapped to valid ppa
+[24207.072009] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072010] NVMeVirt: nvmev_io_worker_0/283[2], sq 7 cq 7, entry 37, 24207072008221 + 0
+[24207.072013] NVMeVirt: nvmev_io_worker_0: copied 281, 7 7 35
+[24207.072014] NVMeVirt: nvmev_io_worker_0: completed 281, 7 7 35
+[24207.072014] NVMeVirt: nvmev_io_worker_0: copied 282, 7 7 36
+[24207.072015] NVMeVirt: nvmev_io_worker_0: completed 282, 7 7 36
+[24207.072016] NVMeVirt: nvmev_io_worker_0: copied 283, 7 7 37
+[24207.072016] NVMeVirt: nvmev_io_worker_0: completed 283, 7 7 37
+[24207.072017] NVMeVirt: irq: msi 118, vector 35
+[24207.072079] NVMeVirt: conv_read: start_lpn=3919553, len=32, end_lpn=3919556
+[24207.072079] NVMeVirt: lpn 0xef3b0 not mapped to valid ppa
+[24207.072079] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072080] NVMeVirt: lpn 0xef3b0 not mapped to valid ppa
+[24207.072080] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072081] NVMeVirt: lpn 0xef3b0 not mapped to valid ppa
+[24207.072081] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072081] NVMeVirt: lpn 0xef3b1 not mapped to valid ppa
+[24207.072082] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072082] NVMeVirt: nvmev_io_worker_0/284[2], sq 5 cq 5, entry 6, 24207072079151 + 0
+[24207.072083] NVMeVirt: __reclaim_completed_reqs: 281 -- 283, 3
+[24207.072083] NVMeVirt: nvmev_io_worker_0: copied 284, 5 5 6
+[24207.072084] NVMeVirt: nvmev_io_worker_0: completed 284, 5 5 6
+[24207.072084] NVMeVirt: irq: msi 116, vector 35
+[24207.072089] NVMeVirt: conv_read: start_lpn=3919558, len=168, end_lpn=3919578
+[24207.072090] NVMeVirt: lpn 0xef3b1 not mapped to valid ppa
+[24207.072090] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072090] NVMeVirt: lpn 0xef3b2 not mapped to valid ppa
+[24207.072091] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072091] NVMeVirt: lpn 0xef3b3 not mapped to valid ppa
+[24207.072091] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072092] NVMeVirt: lpn 0xef3b4 not mapped to valid ppa
+[24207.072092] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072092] NVMeVirt: lpn 0xef3b5 not mapped to valid ppa
+[24207.072092] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072093] NVMeVirt: lpn 0xef3b6 not mapped to valid ppa
+[24207.072093] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072093] NVMeVirt: lpn 0xef3b1 not mapped to valid ppa
+[24207.072094] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072094] NVMeVirt: lpn 0xef3b2 not mapped to valid ppa
+[24207.072094] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072094] NVMeVirt: lpn 0xef3b3 not mapped to valid ppa
+[24207.072095] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072095] NVMeVirt: lpn 0xef3b4 not mapped to valid ppa
+[24207.072095] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072095] NVMeVirt: lpn 0xef3b5 not mapped to valid ppa
+[24207.072096] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072096] NVMeVirt: lpn 0xef3b2 not mapped to valid ppa
+[24207.072096] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072097] NVMeVirt: lpn 0xef3b3 not mapped to valid ppa
+[24207.072097] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072097] NVMeVirt: lpn 0xef3b4 not mapped to valid ppa
+[24207.072097] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072098] NVMeVirt: lpn 0xef3b5 not mapped to valid ppa
+[24207.072098] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072098] NVMeVirt: lpn 0xef3b6 not mapped to valid ppa
+[24207.072098] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072099] NVMeVirt: lpn 0xef3b2 not mapped to valid ppa
+[24207.072099] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072099] NVMeVirt: lpn 0xef3b3 not mapped to valid ppa
+[24207.072100] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072100] NVMeVirt: lpn 0xef3b4 not mapped to valid ppa
+[24207.072100] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072100] NVMeVirt: lpn 0xef3b5 not mapped to valid ppa
+[24207.072101] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072101] NVMeVirt: lpn 0xef3b6 not mapped to valid ppa
+[24207.072101] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072102] NVMeVirt: nvmev_io_worker_0/285[2], sq 5 cq 5, entry 7, 24207072089932 + 0
+[24207.072102] NVMeVirt: __reclaim_completed_reqs: 284 -- 284, 1
+[24207.072102] NVMeVirt: conv_read: start_lpn=3919580, len=48, end_lpn=3919585
+[24207.072103] NVMeVirt: lpn 0xef3b7 not mapped to valid ppa
+[24207.072103] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072103] NVMeVirt: lpn 0xef3b8 not mapped to valid ppa
+[24207.072104] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072104] NVMeVirt: lpn 0xef3b7 not mapped to valid ppa
+[24207.072104] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072104] NVMeVirt: lpn 0xef3b8 not mapped to valid ppa
+[24207.072105] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072105] NVMeVirt: nvmev_io_worker_0: copied 285, 5 5 7
+[24207.072105] NVMeVirt: lpn 0xef3b7 not mapped to valid ppa
+[24207.072106] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072106] NVMeVirt: nvmev_io_worker_0: completed 285, 5 5 7
+[24207.072106] NVMeVirt: lpn 0xef3b7 not mapped to valid ppa
+[24207.072107] NVMeVirt: irq: msi 116, vector 35
+[24207.072107] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072107] NVMeVirt: nvmev_io_worker_0/286[2], sq 5 cq 5, entry 8, 24207072102942 + 0
+[24207.072108] NVMeVirt: __reclaim_completed_reqs: 285 -- 285, 1
+[24207.072108] NVMeVirt: conv_read: start_lpn=3919587, len=80, end_lpn=3919596
+[24207.072108] NVMeVirt: lpn 0xef3b8 not mapped to valid ppa
+[24207.072109] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072109] NVMeVirt: nvmev_io_worker_0: copied 286, 5 5 8
+[24207.072109] NVMeVirt: lpn 0xef3b9 not mapped to valid ppa
+[24207.072110] NVMeVirt: nvmev_io_worker_0: completed 286, 5 5 8
+[24207.072110] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072110] NVMeVirt: irq: msi 116, vector 35
+[24207.072110] NVMeVirt: lpn 0xef3ba not mapped to valid ppa
+[24207.072111] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072111] NVMeVirt: lpn 0xef3b9 not mapped to valid ppa
+[24207.072112] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072112] NVMeVirt: lpn 0xef3ba not mapped to valid ppa
+[24207.072112] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072112] NVMeVirt: lpn 0xef3bb not mapped to valid ppa
+[24207.072113] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072113] NVMeVirt: lpn 0xef3b9 not mapped to valid ppa
+[24207.072113] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072114] NVMeVirt: lpn 0xef3ba not mapped to valid ppa
+[24207.072114] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072114] NVMeVirt: lpn 0xef3b9 not mapped to valid ppa
+[24207.072114] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072115] NVMeVirt: lpn 0xef3ba not mapped to valid ppa
+[24207.072115] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072115] NVMeVirt: nvmev_io_worker_0/287[2], sq 5 cq 5, entry 9, 24207072108642 + 0
+[24207.072116] NVMeVirt: __reclaim_completed_reqs: 286 -- 286, 1
+[24207.072116] NVMeVirt: conv_read: start_lpn=3919598, len=144, end_lpn=3919615
+[24207.072117] NVMeVirt: lpn 0xef3bb not mapped to valid ppa
+[24207.072117] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072117] NVMeVirt: lpn 0xef3bc not mapped to valid ppa
+[24207.072117] NVMeVirt: nvmev_io_worker_0: copied 287, 5 5 9
+[24207.072118] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072118] NVMeVirt: nvmev_io_worker_0: completed 287, 5 5 9
+[24207.072118] NVMeVirt: lpn 0xef3bd not mapped to valid ppa
+[24207.072119] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072119] NVMeVirt: irq: msi 116, vector 35
+[24207.072119] NVMeVirt: lpn 0xef3be not mapped to valid ppa
+[24207.072120] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072120] NVMeVirt: lpn 0xef3bf not mapped to valid ppa
+[24207.072120] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072120] NVMeVirt: lpn 0xef3bb not mapped to valid ppa
+[24207.072121] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072121] NVMeVirt: lpn 0xef3bc not mapped to valid ppa
+[24207.072121] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072122] NVMeVirt: lpn 0xef3bd not mapped to valid ppa
+[24207.072122] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072122] NVMeVirt: lpn 0xef3be not mapped to valid ppa
+[24207.072122] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072123] NVMeVirt: lpn 0xef3bf not mapped to valid ppa
+[24207.072123] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072123] NVMeVirt: lpn 0xef3bc not mapped to valid ppa
+[24207.072124] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072124] NVMeVirt: lpn 0xef3bd not mapped to valid ppa
+[24207.072124] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072124] NVMeVirt: lpn 0xef3be not mapped to valid ppa
+[24207.072125] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072125] NVMeVirt: lpn 0xef3bf not mapped to valid ppa
+[24207.072125] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072126] NVMeVirt: lpn 0xef3bc not mapped to valid ppa
+[24207.072126] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072126] NVMeVirt: lpn 0xef3bd not mapped to valid ppa
+[24207.072126] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072127] NVMeVirt: lpn 0xef3be not mapped to valid ppa
+[24207.072127] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072127] NVMeVirt: lpn 0xef3bf not mapped to valid ppa
+[24207.072127] NVMeVirt: Invalid ppa,ch:255,lun:255,blk:65535,pl:255,pg:65535
+[24207.072128] NVMeVirt: nvmev_io_worker_0/288[2], sq 5 cq 5, entry 10, 24207072116672 + 0
+[24207.072128] NVMeVirt: __reclaim_completed_reqs: 287 -- 287, 1
+[24207.072131] NVMeVirt: nvmev_io_worker_0: copied 288, 5 5 10
+[24207.072131] NVMeVirt: nvmev_io_worker_0: completed 288, 5 5 10
+[24207.072132] NVMeVirt: irq: msi 116, vector 35

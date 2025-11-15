@@ -21,6 +21,7 @@
 #include "zns_ftl.h"
 #include "simple_ftl.h"
 #include "kv_ftl.h"
+#include "my_ftl.h"
 #include "dma.h"
 
 /****************************************************************
@@ -539,6 +540,8 @@ static void NVMEV_NAMESPACE_INIT(struct nvmev_dev *nvmev_vdev)
 			zns_init_namespace(&ns[i], i, size, ns_addr, disp_no);
 		else if (NS_SSD_TYPE(i) == SSD_TYPE_KV)
 			kv_init_namespace(&ns[i], i, size, ns_addr, disp_no);
+		else if (NS_SSD_TYPE(i) == SSD_TYPE_MY)
+			my_init_namespace(&ns[i], i, size, ns_addr, disp_no);
 		else
 			BUG_ON(1);
 
@@ -567,6 +570,8 @@ static void NVMEV_NAMESPACE_FINAL(struct nvmev_dev *nvmev_vdev)
 			zns_remove_namespace(&ns[i]);
 		else if (NS_SSD_TYPE(i) == SSD_TYPE_KV)
 			kv_remove_namespace(&ns[i]);
+		else if (NS_SSD_TYPE(i) == SSD_TYPE_MY)
+			my_remove_namespace(&ns[i]);
 		else
 			BUG_ON(1);
 	}
@@ -593,6 +598,9 @@ static void __print_base_config(void)
 		break;
 	case WD_ZN540:
 		type = "WD ZN540 ZNS SSD";
+		break;
+	case MY_SSD:
+		type = "My SSD Model";
 		break;
 	}
 
